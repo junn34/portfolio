@@ -21,7 +21,7 @@ export default function HeroSection() {
             <span className="text-white">입니다.</span>
           </h2>
           <p className="text-xl sm:text-2xl text-gray-300 mb-12">
-            Good morning, everyone
+            Good morning, Good evening and Good night
           </p>
           <div className="flex justify-center space-x-6">
             <a
