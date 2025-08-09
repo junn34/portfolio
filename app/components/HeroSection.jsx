@@ -32,14 +32,14 @@ export default function HeroSection() {
             >
               <GithubIcon size={32} />
             </a>
-            <a
+            {/* <a
               href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
             >
               <LinkedinIcon size={32} />
-            </a>
+            </a> */}
             <a
               href="mailto:lucasorjh3412@gmail.com"
               className="text-gray-400 hover:text-orange-500 transition-colors duration-200"

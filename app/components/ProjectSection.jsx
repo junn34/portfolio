@@ -10,14 +10,9 @@ const projects = [
     description: '향후 1년의 CPI 예측을 하는 CNN-LSTM 모델을 구현하였습니다.',
     github: 'https://github.com/junn34/Project_with_CNN_LSTM-',
     details:
-      'Pytorch를 사용하여 모델을 전반적으로 설계 및 구현하였고, React를 사용해 UI를 적용시켜 예측 결과를 시각화가 가능하게 했습니다.',
-  },
-  {
-    id: 2,
-    title: '미정',
-    description: '프젝',
-    github: 'https://github.com/',
-    details: '추후 제작',
+      '2005~2025년의 소비자물가지수 관련 뉴스를 크롤링해 감성 분석을 진행했습니다.\n' +
+      '품목별 지수 데이터를 모델에 학습시키고, 성능 검증을 거쳐 CNN-LSTM 모델을 설계·구현했습니다.\n' +
+      '마지막으로 UI를 적용해 CPI 및 품목별 지수 예측 결과와 감성 분석 결과를 시각적으로 확인할 수 있도록 했습니다.',
   },
 ];
 
@@ -69,7 +64,9 @@ export default function ProjectSection() {
               <h3 className="text-2xl font-bold mb-4">
                 {selectedProject.title}
               </h3>
-              <p className="mb-4">{selectedProject.details}</p>
+              <p className="mb-4 whitespace-pre-line">
+                {selectedProject.details}
+              </p>
               <button
                 onClick={() => setSelectedProject(null)}
                 className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600"

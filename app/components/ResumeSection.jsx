@@ -14,11 +14,11 @@ export default function ResumeSection() {
               Experience
             </h3>
             <div className="space-y-8">
-              <div className="border-l-2 border-orange-500 pl-6">
+              {/* <div className="border-l-2 border-orange-500 pl-6">
                 <h4 className="text-xl font-bold text-white">Developer</h4>
                 <p className="text-orange-500 mb-2">회사이름• 2026 - Present</p>
                 <p className="text-gray-300"></p>
-              </div>
+              </div> */}
 
               <div className="border-l-2 border-orange-500 pl-6">
                 <h4 className="text-xl font-bold text-white">
@@ -61,7 +61,7 @@ export default function ResumeSection() {
           </div>
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <a
             href="/resume.pdf"
             target="_blank"
@@ -71,7 +71,7 @@ export default function ResumeSection() {
             Download Resume
             <ExternalLink size={20} className="ml-2" />
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );
